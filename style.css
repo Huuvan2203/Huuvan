@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4ffe8;
+}
+
+.main {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(252, 248, 248);
+    margin: 100px auto;
+    position: relative;
+    
+}
+
+.block {
+    width: 250px;
+    height: 400px;
+    background-color: #dcb644;
+    position: absolute;
+    left: 50px;
+    z-index: 0;
+}
+
+.content {
+    width: 500px;
+    height: 300px;
+    background-color: #fff ;
+    z-index: 0;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.content .block2 {
+    width: 250px;
+    height: 300px;
+    background-color: #dcb644;
+    background-repeat: no-repeat;
+    background-size:  90% auto ;
+    background-position: right;
+    margin-left: 0;
+    position: relative;
+    background-image: url(https://mcdn.nhanh.vn/store1/35317/bn/col_4.png);
+}
+
+.block3 {
+    width: 700px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 400px;
+}
+
+.subblock {
+    border-bottom: 100px solid #fed760;
+    border-left: 80px solid transparent;
+    border-right: 28px solid transparent;
+    height: 0px;
+    width: 358px;
+    position: absolute;
+    top: 0;
+    left: -30px;
+}
+
+
+.ktg {
+	width: 0;
+	height: 0;
+	border-bottom: 39px solid #f4ffe8;
+	border-left: 40px solid transparent;
+    position: absolute;
+    top: 61px;
+    left: -90px;
+}
+
+.nd {
+    position: absolute;
+    left: 300px;
+    width: 200px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nd p {
+    width: 200px;
+    font-weight: 300px;
+    opacity: 0.4;
+    font-size: 12px;
+}
+
+.nd h2 {
+    font-size: 17px;
+    font-weight: 600;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.image {
+    display: flex;
+}
+
+.image img {
+    max-width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+}

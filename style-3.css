@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    #main {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    #header {
+        width: 100%;
+        height: 60px;
+        border-bottom: 1px solid rgb(212, 211, 209);
+        background-color: #ffffff;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    #toolbar {
+        width: 975px;
+        height: 60px;
+        padding: 0 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    #toolbar .logo {
+        max-width: 103px;
+        max-height: 29px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+    
+    #toolbar .search-container {
+        width: 268px;
+        height: 36px;
+        margin-left: 220px;
+        padding: 3px 16px;
+        background-color: rgba(239,239,239);
+        border-radius: 7px;
+    }
+    
+    #toolbar .search-container input{
+        width: 236px;
+        height: 30px;
+        background-color: rgba(239,239,239  );
+        font-size: 15px;
+        line-height: 25px;
+        outline: none;
+        border: none;
+    }
+    
+    #toolbar .nav {
+        width: 265px;
+        height: 60px;
+        margin-top: 35.5px;
+        margin-left: 80px;
+        position: relative;
+    }
+    
+    #toolbar .nav a>i {
+        color: rgb(48, 38, 38);
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+    
+    #toolbar .nav .profile-nav a>img {
+        max-width: 25px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0px;
+        right: -25px;
+    }
+    
+    #toolbar .nav .profile-nav .border-side {
+        position: absolute;
+        margin: auto;
+        top: 128px;
+        right: 0;
+        bottom: 163px;
+        left: 261.2px;
+        width: 2em;
+        height: 2em;
+        border-left: solid 1px #786450;
+        border-right: solid 1px #786450;
+        border-top: solid 1px #786450;
+        border-bottom: solid 1px #786450;
+        border-radius: 100%;
+        transition: transform 1.5s ease-in-out;
+    }   
+    
+    #personalpage .image-profile {
+        width: 975px;
+        height: 1533px;
+        margin-left: 272px;
+        margin-top: 100px;
+        position: relative;
+    }
+    
+    #personalpage .image-profile>img {
+        max-width: 180px;
+        border-radius: 50%;
+        position: absolute;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+    
+    #personalpage .profile{
+        width: 975px;
+        position: absolute;
+        top: 200px!important;
+    }
+    
+    #personalpage .profile h1{
+        position: absolute;
+        top: 100px;
+        left: 300px;
+        top: 0px;
+        color: black;
+        font-weight: 200;
+    }
+    
+    #personalpage .profile .edit-profile{
+        width: 180px;
+        border: 1px solid rgb(176, 173, 172);
+        border-radius: 3px;
+        position: absolute;
+        left: 550px;
+        top: 10px;
+    }
+    
+    #personalpage .profile .edit-profile h2 {
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(55, 54, 54);
+        padding: 3px 5px;
+    }
+    
+    #personalpage .profile a{
+        font-size: 25px;
+        color: black;
+        position: absolute;
+        left: 50%;
+        top: 5px;
+    }
+    
+    #personalpage .profile>p{
+        position: absolute;
+        top: 70px;
+        left: 300px;
+    }
+    
+    #personalpage .profile .follow {
+        text-decoration: none;
+        font-size: 17px;
+        position: absolute;
+        top: 69px;
+        left: 400px;
+    }
+    
+    #personalpage .profile .following {
+        text-decoration: none;
+        font-size: 17px;
+        position: absolute;
+        top: 69px;
+        left: 550px;
+    }
+    
+    #personalpage .profile .watching {
+        display: none;
+    }
+    
+    #personalpage .profile .name {
+        font-weight: 500;
+        position: absolute;
+        top: 120px;
+        left: 300px;
+    }
+    
+    #personalpage .hot-news {
+        width: 975px;
+        position: absolute;
+        left: 50% !important;
+        transform: translateX(-25%);
+    }
+    
+    #personalpage .hot-news>img {
+        max-width: 80px;
+        max-height: 80px;
+        border-radius: 50%;
+    }
+    
+    #personalpage .hot-news .first {
+        position: absolute;
+        top: 250px;
+        left: 50px;
+    }
+    
+    #personalpage .hot-news .border-side-two {
+        position: absolute;
+        margin: auto;
+        top: 744px !important; 
+        right: 600px;
+        bottom: 163px;
+        left: -195px;
+        width: 5.5em;
+        height: 5.5em;
+        border-color: #bbb8b6 !important;
+        border-left: solid 1px;
+        border-right: solid 1px;
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+        border-radius: 100%;
+        transition: transform 1.5s ease-in-out;
+    }
+    
+    #personalpage .hot-news .border-side-three {
+        position: absolute;
+        margin: auto;
+        top: 744px !important;
+        right: 350px;
+        bottom: 163px;
+        left: -195px;
+        width: 5.5em;
+        height: 5.5em;
+        border-color: #bbb8b6 !important;
+        border-left: solid 1px;
+        border-right: solid 1px;
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+        border-radius: 100%;
+        transition: transform 1.5s ease-in-out;
+    }
+    
+    #personalpage .hot-news .border-side-four {
+        position: absolute;
+        margin: auto;
+        top: 744px !important;
+        right: 100px;
+        bottom: 163px;
+        left: -195px;
+        width: 5.5em;
+        height: 5.5em;
+        border-color: #bbb8b6 !important;
+        border-left: solid 1px;
+        border-right: solid 1px;
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+        border-radius: 100%;
+        transition: transform 1.5s ease-in-out;
+    }
+    
+    #personalpage .hot-news .img-2 {
+        position: absolute;
+        top: 250px;
+        left: 175px;
+    }
+    
+    #personalpage .hot-news .img-3 {
+        position: absolute;
+        top: 250px;
+        left: 300px;
+    }
+    
+    #personalpage .hot-news .hot-news-firts{
+        font-weight: 500;
+        color: #242220;
+        font-size: 15px;
+        position: absolute;
+        top: 340px;
+        left: 53px;
+    }
+    
+    #personalpage .hot-news .hot-news-two {
+        font-weight: 500;
+        color: #242220;
+        font-size: 15px;
+        position: absolute;
+        top: 340px;
+        left: 179px;
+    }
+    
+    #personalpage .hot-news .hot-news-three {
+        font-weight: 500;
+        color: #242220;
+        font-size: 15px;
+        position: absolute;
+        top: 340px;
+        left: 303px;
+    }
+    
+    #personalpage .content {
+        position: absolute;
+        top: 750px !important;
+        left: 250px;
+        width: 974px;
+        height: 500px;
+        border-top: 1px solid rgb(222, 220, 220);
+        padding-left: 250px;
+    }
+    
+    #personalpage .content h3 {
+        position: absolute;
+        top: -40px;
+        left: 57px;
+        font-weight: 400;
+    }
+    
+    #personalpage .content .gallery>i {
+        color: #706b66;
+        position: absolute;
+        top: -34px;
+        left: 40px;
+    }
+    
+    div.gallery {
+        position: absolute;
+        top: 20px;
+        margin-top: 30px;
+        width: 500px;
+    }
+    
+    div.gallery ul {
+        list-style-type: none;
+        margin-left: 35px;
+    }
+    
+    div.gallery ul li,
+    div.gallery li img {
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    div.gallery ul li {
+        position: relative;
+        float: left;
+        width: 130px;
+        height: 130px;
+        margin: 5px;
+        padding: 5px;
+        z-index: 0;
+    }
+    
+    div.gallery ul li:hover {
+        z-index: 5;
+    }
+    
+    div.gallery ul li img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        border: 1px solid #dddddd;
+        padding: 5px;
+        width: 150px;
+        height: 150px;
+        background: #f0f0f0;
+    }
+    
+    div.gallery ul li img:hover {
+        width: 200px;
+        height: 200px;
+        margin-top: -130px;
+        margin-left: -130px;
+        top: 65%;
+        left: 65%;
+    }

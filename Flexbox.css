@@ -1,0 +1,14 @@
+
+
+.nav{
+    min-height: 42px;
+    background-color: rgb(255, 132, 0);
+    display: flex;
+    
+    justify-content: space-between;
+   
+}
+.form_row{
+    padding: 8px 0;
+    display: block;
+}
